@@ -1,37 +1,62 @@
-table {
-  margin: 0 auto;
-  border-radius:10px;
-}
-td {
-  border: 1px solid black;
-  width: 125px;
-  height: 125px;
-  text-align: center;
-  font-size: 8em;
-  box-sizing:border-box;
-}
-
-td:hover{
-  cursor:pointer;
-}
-
 h1 {
-  text-align: center;
+	text-align: center;
+	font-family: Arial;
+	text-transform: uppercase;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	margin-bottom: 0px;
 }
 
-.startOver {
-  text-align: center;
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
-#reset {
-  padding: 10px;
-  width: 200px;
-  font-size: 1.5em;
-  border-radius: 10px;
-  cursor: pointer;
+div {
+	display: inline-block;
 }
 
-#reset:hover{
-  background: lemonchiffon;
-  border-color: white;
+#sciElements1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 2px;
+	margin: 10px;
+}
+
+body {
+	background-color: turquoise;
+	font-family: Arial;
+	text-align: center;
+}
+
+.abbrev {
+	text-transform: uppercase;
+}
+
+.periodic {
+	text-align: left;
+}
+
+#boardGame div {
+	background-color: turquoise;
+	border: #fff 1px outset;
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	font-size: 64px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 350%;
+}
+
+#boardGame {
+	background: transparent;
+	width: 800px;
+	height: 400px;
+	padding: 24px;
+	margin: 0px auto;
 }
